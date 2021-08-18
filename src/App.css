@@ -1,3 +1,5 @@
+/** @format */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+.strike {
+  text-decoration: line-through;
+}
+.nav {
+  color: white;
+  text-align: center;
+}
+body {
+  background-color: #282c34;
+}
+.todoForm {
+  width: 100%;
+  align-content: center;
+}
+.todoForm input {
+  margin-left: 25%;
+  margin-right: 0;
+  width: 40%;
+  padding: 5px;
+  border-radius: 3px;
+}
+.todoForm button {
+  padding: 6px 25px;
+  border-top-right-radius: 3px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  margin-left: 0;
+  background-color: #61dafb;
+}
+.shoplist {
+  width: 80%;
+  margin: 30px auto;
+}
+.todo {
+  border: 2px solid white;
+  color: white;
+  padding: 5px;
+
+  margin: 10px;
+  border-radius: 1px;
+}
+.todo li {
+  list-style: none;
+  float: left;
+  margin-right: 60%;
+}
+.todo .delete {
+  padding: 6px 25px;
+  border-top-right-radius: 3px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+  color: white;
+  border: none;
+  background-color: red;
+}
+.todo .com {
+  padding: 6px 25px;
+  border-top-right-radius: 3px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+  color: white;
+  border: none;
+  background-color: green;
 }
